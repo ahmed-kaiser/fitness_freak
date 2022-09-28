@@ -1,0 +1,65 @@
+[
+    {
+        "id": "ex1",
+        "name": "Pushups",
+        "image": "./images/Pushups.jpg",
+        "time": "40s",
+        "details":  "Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them."
+    },
+    {
+        "id": "ex2",
+        "name": "Lunges",
+        "image": "./images/Lunge.jpg",
+        "time": "40s",
+        "details": "Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement while also increasing strength in your legs and glutes."
+    },
+    {
+        "id": "ex3",
+        "name": "Squats",
+        "image": "./images/squat.jpg",
+        "time": "40s",
+        "details": "Squats increase lower body and core strength, as well as flexibility in your lower back and hips. Because they engage some of the largest muscles in the body, they also pack a major punch in terms of calories burned."
+    },
+    {
+        "id": "ex4",
+        "name": "Dumbbell presses",
+        "image": "./images/Dumbbell presses.jpg",
+        "time": "40s",
+        "details": "Compound exercises, which utilize multiple joints and muscles, are perfect for busy bees as they work several parts of your body at once. A standing overhead press isn't only one of the best exercises you can do for your shoulders, but it also engages your upper back and core."
+    },
+    {
+        "id": "ex5",
+        "name": "Dumbbell rows",
+        "image": "./images/two-arm-dumbbell-row-exercise.jpg",
+        "time": "40s",
+        "details": "Not only will these make your back look killer in that dress, but dumbbell rows are also another compound exercise that strengthens multiple muscles in your upper body. Choose a moderate-weight dumbbell and ensure that you're squeezing at the top of the movement."
+    },
+    {
+        "id": "ex6",
+        "name": "Single-leg dead-lifts",
+        "image": "./images/Single-leg-deadlifts.jpg",
+        "time": "40s",
+        "details": "This is another exercise that challenges your balance. Single-leg dead-lifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move."
+    },
+    {
+        "id": "ex7",
+        "name": "Burpees",
+        "image": "./images/Burpees.jpg",
+        "time": "40s",
+        "details": "An exercise we love to hate, burpees are a super-effective, whole-body move that provides great bang for your buck for cardiovascular endurance and muscle strength."
+    },
+    {
+        "id": "ex8",
+        "name": "Side planks",
+        "image": "./images/Side-planks.jpg",
+        "time": "40s",
+        "details": "A healthy body requires a strong core at its foundation, so don't neglect core-specific moves like the side plank. Focus on the mind-muscle connection and controlled movements to ensure you're completing this move effectively."
+    },
+    {
+        "id": "ex9",
+        "name": "Planks",
+        "image": "./images/Planks.jpg",
+        "time": "40s",
+        "details": "Planks are an effective way to target both your abdominal muscles and your whole body. Planking stabilizes your core without straining your back the way situps or crunches might."
+    }
+]
