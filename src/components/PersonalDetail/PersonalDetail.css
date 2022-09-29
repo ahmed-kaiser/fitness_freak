@@ -18,9 +18,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    gap: 10px;
     background-color: rgb(230, 238, 232);
-    padding: 20px;
-    border-radius: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 320px;
 }
 
 .profile-info-two>div{
@@ -36,4 +39,24 @@
 
 .text-light{
     color: rgb(102, 101, 101);
+}
+
+@media (max-width: 1050px) {
+    .profile-info-one{
+        flex-direction: column;
+    }
+
+    .profile-info-name-address{
+        text-align: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .profile-info-one{
+        flex-direction: row;
+    }
+
+    .profile-info-name-address{
+        text-align: center;
+    }
 }
