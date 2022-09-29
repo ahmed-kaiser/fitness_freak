@@ -23,7 +23,9 @@
 .exercise-completed{
     margin-top: 60px;
     text-align: center;
+    position: relative;
 }
+
 .completed-btn{
     padding: 12px 50px;
     font-size: 1.05rem;

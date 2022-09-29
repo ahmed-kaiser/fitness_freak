@@ -1,0 +1,31 @@
+.toast{
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 1px 6px 36px -5px rgba(0,0,0,0.56);
+    -webkit-box-shadow: 1px 6px 36px -5px rgba(0,0,0,0.56);
+    -moz-box-shadow: 1px 6px 36px -5px rgba(0,0,0,0.56);
+    position: absolute;
+    top: -140px;
+    left: 15%;
+    text-align: left;
+    background-color:  rgb(215, 240, 219);
+}
+
+.toast-head img{
+    width: 150px;
+}
+
+.toast-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{
+    margin-right: 5px;
+}
+
+.toast-body p{
+    margin-top: 5px;
+}

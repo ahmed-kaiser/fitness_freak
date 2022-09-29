@@ -1,6 +1,9 @@
+import { useState } from 'react';
+import Toast from '../Toast/Toast';
 import './ExerciseDetail.css';
 
 const ExerciseDetail = ({ breakTime, toDoExercise }) => {
+    const [isCompleted, setIsCompleted] = useState(false);
 
     let totalExerciseTime = 0;
     for(const exercise of toDoExercise){
@@ -19,7 +22,16 @@ const ExerciseDetail = ({ breakTime, toDoExercise }) => {
                 <p className="time">{ breakTime } second</p>
             </div>
             <div className="exercise-completed">
-                <button className="completed-btn">Activity Completed</button>
+                <button 
+                    className="completed-btn"
+                    onClick={() => setIsCompleted(true)}
+                >
+                    Activity Completed
+                </button>
+                <Toast
+                    isCompleted = { isCompleted }
+                    setIsCompleted = { setIsCompleted }
+                />
             </div>
         </div>
     );
