@@ -1,0 +1,23 @@
+.exercise-break-section{
+    margin-top: 50px;
+}
+
+.break-time{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    background-color: rgb(230, 238, 232);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.break-time p{
+    background-color: white;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.break-time p:hover{
+    background-color:  rgb(151, 196, 158);
+}
