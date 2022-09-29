@@ -1,4 +1,5 @@
 import ExerciseBreak from '../ExerciseBreak/ExerciseBreak';
+import ExerciseDetail from '../ExerciseDetail/ExerciseDetail';
 import PersonalDetail from '../PersonalDetail/PersonalDetail';
 import './Profile.css';
 
@@ -7,6 +8,7 @@ const Profile = () => {
         <section className="profile-section">
             <PersonalDetail/>
             <ExerciseBreak/>
+            <ExerciseDetail/>
         </section>
     );
 };

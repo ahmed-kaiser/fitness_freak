@@ -1,0 +1,39 @@
+.exercise-detail-section{
+    margin-top: 30px;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(230, 238, 232);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.title{
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.time{
+    padding: 0 10px;
+}
+
+.exercise-completed{
+    margin-top: 60px;
+    text-align: center;
+}
+.completed-btn{
+    padding: 12px 50px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color:  rgb(110, 167, 118);
+    color: rgb(37, 37, 37);
+}
+
+.completed-btn:hover{
+    background-color: rgb(151, 196, 158);
+}
