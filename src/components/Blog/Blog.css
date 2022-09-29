@@ -16,3 +16,10 @@
 .blog-post p {
     line-height: 1.8rem;
 }
+
+@media (max-width: 900px) {
+    .blog-section{
+        margin-top: 100px;
+    }
+}
+
