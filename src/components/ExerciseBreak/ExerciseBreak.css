@@ -12,13 +12,16 @@
     border-radius: 20px;
 }
 
-.break-time p{
+.break-btn{
     background-color: white;
-    padding: 10px;
+    padding: 10px 12px;
     border-radius: 100%;
     cursor: pointer;
+    font-weight: 600;
+    border: none;
 }
 
-.break-time p:hover{
+.break-btn:hover,
+.active{
     background-color:  rgb(151, 196, 158);
 }
