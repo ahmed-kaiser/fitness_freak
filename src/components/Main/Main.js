@@ -57,6 +57,14 @@ const Main = () => {
         localStorage.setItem('breakTime', time);
     }
 
+    // clear local storage and state value
+    const deleteToDoExerciseHandler = () => {
+        localStorage.clear();
+        toDoExercise.map(exercise => exercise.doActivity = 0);
+        setToDoExercise([]);
+        setBreakTime(0);
+    }
+
     // load data from database
     useEffect(() => {
         fetch('./db.json')
@@ -91,6 +99,7 @@ const Main = () => {
                     toDoExercise = { toDoExercise }
                     breakTime = { breakTime }
                     handleBreakTimeClick = { handleBreakTimeClick }
+                    deleteHandler = { deleteToDoExerciseHandler }
                 />
             </div>
         </main>

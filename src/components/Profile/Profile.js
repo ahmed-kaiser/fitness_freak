@@ -3,7 +3,7 @@ import ExerciseDetail from '../ExerciseDetail/ExerciseDetail';
 import PersonalDetail from '../PersonalDetail/PersonalDetail';
 import './Profile.css';
 
-const Profile = ({ toDoExercise, breakTime, handleBreakTimeClick }) => {
+const Profile = ({ toDoExercise, breakTime, handleBreakTimeClick, deleteHandler }) => {
     return (
         <section className="profile-section">
             <PersonalDetail/>
@@ -14,6 +14,7 @@ const Profile = ({ toDoExercise, breakTime, handleBreakTimeClick }) => {
             <ExerciseDetail
                 toDoExercise = { toDoExercise }
                 breakTime = { breakTime }
+                deleteHandler = { deleteHandler }
             />
         </section>
     );

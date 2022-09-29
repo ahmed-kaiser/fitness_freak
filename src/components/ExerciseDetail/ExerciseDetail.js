@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Toast from '../Toast/Toast';
 import './ExerciseDetail.css';
 
-const ExerciseDetail = ({ breakTime, toDoExercise }) => {
+const ExerciseDetail = ({ breakTime, toDoExercise, deleteHandler }) => {
     const [isCompleted, setIsCompleted] = useState(false);
 
     let totalExerciseTime = 0;
@@ -27,6 +27,12 @@ const ExerciseDetail = ({ breakTime, toDoExercise }) => {
                     onClick={() => setIsCompleted(true)}
                 >
                     Activity Completed
+                </button>
+                <button 
+                    className="clear-btn"
+                    onClick={ deleteHandler }
+                >
+                    Clear Activity
                 </button>
                 <Toast
                     isCompleted = { isCompleted }
