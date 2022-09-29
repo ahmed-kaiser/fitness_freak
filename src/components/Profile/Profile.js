@@ -1,9 +1,10 @@
+import PersonalDetail from '../PersonalDetail/PersonalDetail';
 import './Profile.css';
 
 const Profile = () => {
     return (
         <section className="profile-section">
-            <h1>Profile</h1>
+            <PersonalDetail/>
         </section>
     );
 };
