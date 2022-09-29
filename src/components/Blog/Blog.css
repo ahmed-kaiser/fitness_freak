@@ -1,0 +1,17 @@
+.blog-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.blog-title{
+    padding-bottom: 5px;
+}
+
+.blog-post{
+    max-width: 1000px;
+    margin: 15px 10px;
+}
+
+.blog-post p {
+    line-height: 1.8rem;
+}
